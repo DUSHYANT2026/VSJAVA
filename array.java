@@ -21,28 +21,28 @@
 
 
 // // CONVERT A ARRAYLIST TO AN ACTUAL ARRAY USING  name.toArray();
-import java.util.*;
-public class array {
-    public static void main(String[] args) {
-        ArrayList<Integer> nums = new ArrayList<>();
+// import java.util.*;
+// public class array {
+//     public static void main(String[] args) {
+//         ArrayList<Integer> nums = new ArrayList<>();
 
-        for(int i=1; i<=10; i++){
-            nums.add(i);
-        }
+//         for(int i=1; i<=10; i++){
+//             nums.add(i);
+//         }
 
-        System.out.println("THE SIZE OF THE ARRAY LIST : " +  nums.size());
-        System.out.println("ALL THE ELEMENT IN THE ARRAY LIST:");
-        for(int i=0; i<nums.size(); i++){
-            System.out.println(nums.get(i));
-        }
+//         System.out.println("THE SIZE OF THE ARRAY LIST : " +  nums.size());
+//         System.out.println("ALL THE ELEMENT IN THE ARRAY LIST:");
+//         for(int i=0; i<nums.size(); i++){
+//             System.out.println(nums.get(i));
+//         }
 
-        System.out.println("CONVERT A ARRAYLIST INTO ACTUAL ARRAY: AND PRINT ALL THE ELEMENTS: ");
-        Integer[] newnums = nums.toArray(new Integer[0]);
-        for(int i=0; i<newnums.length; i++){
-            System.out.println(newnums[i]);
-        }
-    }
-}
+//         System.out.println("CONVERT A ARRAYLIST INTO ACTUAL ARRAY: AND PRINT ALL THE ELEMENTS: ");
+//         Integer[] newnums = nums.toArray(new Integer[0]);
+//         for(int i=0; i<newnums.length; i++){
+//             System.out.println(newnums[i]);
+//         }
+//     }
+// }
 
 
 

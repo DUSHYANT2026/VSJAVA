@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class BinaryToStringConverter {
+public class code {
 
     public static void binaryToString(String s) {
         Map<String, Character> map = new HashMap<>();
@@ -42,8 +42,8 @@ public class BinaryToStringConverter {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
         binaryToString(s);
     }
 }

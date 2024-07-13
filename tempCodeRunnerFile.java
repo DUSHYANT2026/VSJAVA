@@ -1,6 +1,6 @@
 
 import java.util.*;    
-class codes_java{
+class tempCodeRunnerFile{
 //     int id=5;
 //     String name="faizan";
     

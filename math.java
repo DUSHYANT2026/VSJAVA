@@ -118,6 +118,8 @@ public class math {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("ENTER THE THREE VALUES FIRST LONG ANFD TWO INTEGER TYPE");
+
         long x = scanner.nextLong();
 
         int y = scanner.nextInt();
