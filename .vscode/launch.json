@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "VSCODEJAVA_5792605e"
+    },
+    {
+      "type": "java",
       "name": "math",
       "request": "launch",
       "mainClass": "math",
